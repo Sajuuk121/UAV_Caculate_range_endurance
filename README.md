@@ -3,6 +3,7 @@ This is a project to caculate the drones' range and endurance.
 这是用来计算无人机航程和航时的程序
 
 ![结果图](/RESULT.png "THE RESULT")
+## 该函数以10000毫安时为起点，间隔5000毫安时、同时以11.1v（3S）开始间隔1S进行绘图，得出函数的航程与航时
 
     function drone_range_endurance_plot(length, width, height, wheelbase, weight)
     % Create an empty matrix to store the battery capacities
